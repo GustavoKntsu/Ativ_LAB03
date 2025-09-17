@@ -2,7 +2,7 @@ package org.principal;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        Aluno aluno1 = new Aluno();
 
     }
 }

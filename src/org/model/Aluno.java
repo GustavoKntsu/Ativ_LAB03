@@ -4,6 +4,8 @@ public class Aluno {
     private String nome;
     private double[] notas;
 
+    //*************************************
+    // CONSTRUTORES
     public Aluno() {
         this.nome = "Desconhecido";
         this.notas= new double[4];

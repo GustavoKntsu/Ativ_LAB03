@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="982094ed-a9ee-4768-8ebb-96d497c5d24c" name="Changes" comment="" />
+    <list default="true" id="982094ed-a9ee-4768-8ebb-96d497c5d24c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/org/model/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/model/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/principal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/principal/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,9 +26,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "GustavoKntsu"
+  }
+}]]></component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="96e22938-bae0-453c-923d-9b670e1bfe4d" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/GustavoKntsu/Ativ_LAB03.git",
+    "accountId": "96e22938-bae0-453c-923d-9b670e1bfe4d"
+  }
+}]]></component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="$PROJECT_DIR$/../../../../laragon/bin/php/php-8.4.10-nts-Win32-vs17-x64/php.exe" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -38,8 +53,9 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/JetBrains/Códigos/JAVA_codes/Ativ_LAB03",
@@ -70,10 +86,40 @@
       <workItem from="1758117726806" duration="5921000" />
       <workItem from="1758127795348" duration="23000" />
       <workItem from="1758128362541" duration="127000" />
+      <workItem from="1758128531013" duration="2219000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$/.git" />
+    </ignored-roots>
   </component>
 </project>
