@@ -4,44 +4,44 @@ public class Aluno {
     private String nome;
     private double[] notas;
 
-    //*************************************
-    // CONSTRUTORES
+    // Construtor sem parâmetros
     public Aluno() {
         this.nome = "Desconhecido";
-        this.notas= new double[4];
+        this.notas = new double[4]; // Inicializa com zeros
     }
 
-    public Aluno(String nome, double[] nota) {
+    // Construtor com parâmetros
+    public Aluno(String nome, double[] notas) {
         this.nome = nome;
-        if (nota.length == 4) {
-            this.notas = nota.clone();
+        if (notas.length == 4) {
+            this.notas = notas.clone();
         } else {
-            throw new IllegalArgumentException("Devem ser fornecidos 4 notas.");
+            throw new IllegalArgumentException("Devem ser fornecidas exatamente 4 notas.");
         }
     }
 
-    // Metodo para imprimir as informações do aluno
+    // Método para imprimir informações
     public void imprimirInformacoes() {
-        System.out.println("Nome: " + nome + "\nNotas: ");
+        System.out.print("Nome: " + nome + "\nNotas: ");
         for (double nota : notas) {
-            System.out.println(nota + " ");
+            System.out.print(nota + " ");
         }
         System.out.println();
     }
 
-    // Metodo para calcular media
+    // Método para calcular a média
     public double calcularMedia() {
         double soma = 0;
-        for(double nota : notas) {
+        for (double nota : notas) {
             soma += nota;
         }
         return soma / notas.length;
     }
 
-    // Metodo para verificar se o aluno foi aprovado
-    public boolean verificarAprovado( double valor) {
-        for(double nota : notas) {
-            if(nota < valor) {
+    // Método para verificar aprovação
+    public boolean verificarNotaAprovacao(double valor) {
+        for (double nota : notas) {
+            if (nota < valor) {
                 return false;
             }
         }
